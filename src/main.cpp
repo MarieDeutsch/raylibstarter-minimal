@@ -17,7 +17,7 @@ int main() {
     // Your own initialization code here
     // ...
     // ...
-    Texture2D myTexture = LoadTexture("assets/graphics/krone.png");
+    Texture2D myTexture = LoadTexture("assets/graphics/doggo.PNG");
 
     // Main game loop
     while (!WindowShouldClose()) // Detect window close button or ESC key
@@ -30,8 +30,8 @@ int main() {
             // You can draw on the screen between BeginDrawing() and EndDrawing()
             // ...
             // ...
-            ClearBackground(WHITE);
-            DrawText("Ich hab keinen Bock mehr", 10, 10, 30, LIGHTGRAY);
+            ClearBackground(BLACK);
+            DrawText("Ich hab keinen Bock mehr", 10, 10, 30, RED);
             DrawTexture(myTexture, 10, 100, WHITE);
 
         EndDrawing();
